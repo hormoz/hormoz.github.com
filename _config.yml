@@ -1,5 +1,10 @@
-auto: true
+auto: false
+server: false
+lsi: false
 markdown: rdiscount
-permalink: /:year/:month/:day/:title
-rdiscount
-  extensions: [smart]
+pygments: true
+permalink: /:title
+paginate: 10
+category_dir: topics
+category_title_prefix: 
+exclude: ["lib", "blog.rb", "Capfile", "config", "log", "Rakefile", "tmp"]
