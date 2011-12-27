@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Post
+title: Socrates on Trial
 ---
 
 - در یونان باستان سوفیها Sophists کسانی بودند که به دانش و حکمت معروف
