@@ -202,7 +202,52 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
    #post{direction:rtl;text-align:right;font-family:Tahoma, Arial;}
 
+   /* Begin Various Tags & Classes */
+   acronym, abbr, span.caps {
+   	cursor: help;
+   	}
 
+   acronym, abbr {
+   	border-bottom: 1px dashed #999;
+   	}
+
+   blockquote {
+   	margin: 15px 30px 0 10px;
+   	padding-left: 20px;
+   	border-left: 5px solid #ddd;
+   	}
+
+   blockquote cite {
+   	margin: 5px 0 0;
+   	display: block;
+   	}
+
+   .center {
+   	text-align: center;
+   	}
+
+   .hrhide {
+   	display: none;
+   	}
+
+   a img {
+   	border: none;
+   	}
+
+   .navigation {
+   	display: block;
+   	text-align: center;
+   	height:30px;
+   	}
+
+   .codeblock {background-color: #EBEBEB; border: 1px solid #D5D5D5; margin: 20px 0 40px 0; padding: 6px 21px; white-space: pre; text-align:left; direction:ltr;}
+   .codeblock code {color: #424242; font-family: Monaco,monospace; font-size: 12px;}
+   .codeblock code strong {background-color: #F2F2F2; color: #787878; font-weight: normal; padding: 2px 8px 2px 2px;}
+   .codeblock code em.blue {color: #005BB1;font-style: normal;}
+   .codeblock code em.red {color: #C00900;font-style: normal;}
+   .inline{background-color: #EBEBEB; border: 0; padding:3px; font-family: Monaco,monospace; color: #424242; font-size: 12px; direction:ltr; text-align:left; display: inline;}
+   kbd {	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; font-size:12px; direction:ltr;}
+   kbd.h3 {font-size:14px}
 
 
 
